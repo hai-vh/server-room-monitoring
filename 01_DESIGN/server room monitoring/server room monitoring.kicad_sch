@@ -5,6 +5,76 @@
 	(uuid "6382e275-058c-4116-9829-3165fddbcf2b")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 92.71 107.95) (xy 92.71 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00fdbc42-91d9-4b5f-afd4-cc7199408a0c")
+	)
+	(wire
+		(pts
+			(xy 83.82 107.95) (xy 92.71 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73d28dc6-7be9-4049-992b-5d10bcc8a13b")
+	)
+	(wire
+		(pts
+			(xy 88.9 114.3) (xy 88.9 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99b60224-afa8-4b6c-b016-d09c15bebf68")
+	)
+	(wire
+		(pts
+			(xy 83.82 125.73) (xy 95.25 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c356d329-c1be-48bb-97fa-c184497aa4db")
+	)
+	(wire
+		(pts
+			(xy 83.82 114.3) (xy 88.9 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f755aadb-c7e3-49d4-a5b6-d7a2c9347f38")
+	)
+	(wire
+		(pts
+			(xy 92.71 106.68) (xy 95.25 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb8ccef1-71f0-4501-bb68-c62693460142")
+	)
+	(wire
+		(pts
+			(xy 88.9 115.57) (xy 95.25 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fddb1a2f-b8d3-4ee3-807e-bcafa8091400")
+	)
 	(sheet
 		(at 226.06 52.07)
 		(size 39.37 29.21)
@@ -52,7 +122,53 @@
 		)
 	)
 	(sheet
-		(at 146.05 40.64)
+		(at 134.62 40.64)
+		(size 38.1 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "14b65d47-f02f-423d-a880-9b2610f7ee6f")
+		(property "Sheetname" "ethernet"
+			(at 134.62 39.9284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ethernet.kicad_sch"
+			(at 134.62 81.8646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "server room monitoring"
+				(path "/6382e275-058c-4116-9829-3165fddbcf2b"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 95.25 97.79)
 		(size 41.91 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -68,7 +184,7 @@
 		)
 		(uuid "234b9206-bcdf-4a8c-be0b-cbb776d074a9")
 		(property "Sheetname" "MCU"
-			(at 146.05 39.9284 0)
+			(at 95.25 97.0784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -79,7 +195,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 146.05 76.7846 0)
+			(at 95.25 133.9346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -87,6 +203,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "RS485_RX" bidirectional
+			(at 95.25 115.57 180)
+			(uuid "0c31028e-8ecf-4d63-8070-169d8a58a581")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RS485_TX" bidirectional
+			(at 95.25 125.73 180)
+			(uuid "1e20d88b-9d92-4057-a6d5-74618066f12f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RS485_DE_~{RE}" bidirectional
+			(at 95.25 106.68 180)
+			(uuid "52af9a58-9568-4140-97ad-b4a1543a3fd8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -144,6 +290,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(pin "RS485_RX" bidirectional
+			(at 83.82 114.3 0)
+			(uuid "4b6e7cd2-2cc6-4441-a187-15436abd0bbf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RS485_TX" bidirectional
+			(at 83.82 125.73 0)
+			(uuid "86fad058-8290-43b4-a1f1-7013678454b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RS485_DE_~{RE}" bidirectional
+			(at 83.82 107.95 0)
+			(uuid "0df2f2e2-4ac7-4253-a63d-fcfdd65b0e42")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
