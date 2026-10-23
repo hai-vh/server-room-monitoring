@@ -5,78 +5,248 @@
 	(uuid "6382e275-058c-4116-9829-3165fddbcf2b")
 	(paper "A4")
 	(lib_symbols)
-	(wire
-		(pts
-			(xy 92.71 107.95) (xy 92.71 106.68)
+	(label "RS485_DE_~{RE}"
+		(at 62.23 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00fdbc42-91d9-4b5f-afd4-cc7199408a0c")
+		(uuid "0714dbb7-b6c3-4721-8fae-0301cb7fc98f")
 	)
-	(wire
-		(pts
-			(xy 83.82 107.95) (xy 92.71 107.95)
+	(label "LED_STATUS"
+		(at 111.76 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73d28dc6-7be9-4049-992b-5d10bcc8a13b")
+		(uuid "18c141bb-d57f-4b49-a0fc-ebbe3e5a578c")
 	)
-	(wire
-		(pts
-			(xy 88.9 114.3) (xy 88.9 115.57)
+	(label "LED_ALARM"
+		(at 111.76 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99b60224-afa8-4b6c-b016-d09c15bebf68")
+		(uuid "198d4b01-db7a-45e2-8709-77b4ef1aa410")
 	)
-	(wire
-		(pts
-			(xy 83.82 125.73) (xy 95.25 125.73)
+	(label "ETH_MISO"
+		(at 132.08 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c356d329-c1be-48bb-97fa-c184497aa4db")
+		(uuid "2eb34f21-72ac-47d2-99f6-67912a31864a")
 	)
-	(wire
-		(pts
-			(xy 83.82 114.3) (xy 88.9 114.3)
+	(label "RS485_DE_~{RE}"
+		(at 111.76 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f755aadb-c7e3-49d4-a5b6-d7a2c9347f38")
+		(uuid "34d07a02-2b25-47a6-ad68-034c05dff61f")
 	)
-	(wire
-		(pts
-			(xy 92.71 106.68) (xy 95.25 106.68)
+	(label "BUZZER"
+		(at 153.67 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb8ccef1-71f0-4501-bb68-c62693460142")
+		(uuid "35cc1ef5-b8bf-4310-89be-e7f0916d567d")
 	)
-	(wire
-		(pts
-			(xy 88.9 115.57) (xy 95.25 115.57)
+	(label "RS485_TX"
+		(at 62.23 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
-		(stroke
-			(width 0)
-			(type default)
+		(uuid "55ee6465-4bb9-4e69-b9d1-2add5b413b65")
+	)
+	(label "ETH_INT"
+		(at 153.67 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
-		(uuid "fddb1a2f-b8d3-4ee3-807e-bcafa8091400")
+		(uuid "5b4d9f01-bea1-4a14-89f7-1678821f43ac")
+	)
+	(label "ETH_MOSI"
+		(at 132.08 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "68b5b31a-4e9a-411e-86a2-0bbd2d217a25")
+	)
+	(label "ETH_CS"
+		(at 132.08 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8935734b-e9a4-43b9-a6dc-cc6cc8290998")
+	)
+	(label "ETH_MISO"
+		(at 153.67 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ec2990e-385e-4973-8393-9ae1190eed76")
+	)
+	(label "RS485_RX"
+		(at 111.76 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a5cfc8a2-82ea-4bd8-994e-2381619b176f")
+	)
+	(label "LED_ALARM"
+		(at 207.01 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a94d4fe3-7a3f-4251-919d-613f03b8ed3c")
+	)
+	(label "ETH_RST"
+		(at 132.08 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a9bf9a66-e0fe-41c0-a0cc-ca2aaa8e0581")
+	)
+	(label "BUZZER"
+		(at 207.01 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b85b62ef-e52d-4111-b41a-7686f8b0d963")
+	)
+	(label "ETH_SCK"
+		(at 132.08 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "be2d7dfb-a2e2-421e-9401-6ed4f2b7b15b")
+	)
+	(label "ETH_INT"
+		(at 132.08 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bfb803ad-3de1-468b-b9c6-98d3acd1c431")
+	)
+	(label "RS485_TX"
+		(at 111.76 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c3ea1361-1c29-4589-99eb-a974b9a22c35")
+	)
+	(label "ETH_SCK"
+		(at 153.67 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c63db373-d83a-4ad4-a082-4b30f74cab04")
+	)
+	(label "ETH_CS"
+		(at 153.67 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cc9e7787-4e89-4cc2-a781-9283521d1a15")
+	)
+	(label "RS485_RX"
+		(at 62.23 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0795e7b-a1a3-4820-b6c6-eb6db552a747")
+	)
+	(label "LED_STATUS"
+		(at 207.01 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eb81c099-667d-494b-a614-5df16081c014")
+	)
+	(label "ETH_RST"
+		(at 153.67 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff48c775-a5f7-47df-b2a0-8ff41c591d66")
+	)
+	(label "ETH_MOSI"
+		(at 153.67 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff749893-38b5-432f-9b09-41fcb64ca88e")
 	)
 	(sheet
-		(at 226.06 52.07)
+		(at 215.9 33.02)
 		(size 39.37 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -92,7 +262,7 @@
 		)
 		(uuid "07f74168-69e3-4948-a3e8-349566dd0f32")
 		(property "Sheetname" "block diagram"
-			(at 226.06 51.3584 0)
+			(at 215.9 32.3084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -103,7 +273,7 @@
 			)
 		)
 		(property "Sheetfile" "block diagram.kicad_sch"
-			(at 226.06 81.8646 0)
+			(at 215.9 62.8146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -122,7 +292,7 @@
 		)
 	)
 	(sheet
-		(at 134.62 40.64)
+		(at 132.08 25.4)
 		(size 38.1 40.64)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -138,7 +308,7 @@
 		)
 		(uuid "14b65d47-f02f-423d-a880-9b2610f7ee6f")
 		(property "Sheetname" "ethernet"
-			(at 134.62 39.9284 0)
+			(at 132.08 24.6884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -149,7 +319,7 @@
 			)
 		)
 		(property "Sheetfile" "ethernet.kicad_sch"
-			(at 134.62 81.8646 0)
+			(at 132.08 66.6246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -157,6 +327,66 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "ETH_CS" bidirectional
+			(at 132.08 50.8 180)
+			(uuid "3dd230a6-c82e-49ad-ae60-c390b9fe549a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ETH_INT" bidirectional
+			(at 132.08 54.61 180)
+			(uuid "11f1ac7b-ee27-48b9-9e81-805b1fbfc86c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ETH_MISO" bidirectional
+			(at 132.08 46.99 180)
+			(uuid "7c8623d9-d4c8-49a3-a855-f779508a1c30")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ETH_MOSI" bidirectional
+			(at 132.08 41.91 180)
+			(uuid "ad2e952e-c403-4a5e-a421-89814cd075c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ETH_RST" bidirectional
+			(at 132.08 35.56 180)
+			(uuid "12cea7f5-bb6b-4855-9689-872add8435f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ETH_SCK" bidirectional
+			(at 132.08 30.48 180)
+			(uuid "0f6d3b41-faaf-4f37-ac6c-c1ff98881d06")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -168,7 +398,7 @@
 		)
 	)
 	(sheet
-		(at 95.25 97.79)
+		(at 111.76 97.79)
 		(size 41.91 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -184,7 +414,7 @@
 		)
 		(uuid "234b9206-bcdf-4a8c-be0b-cbb776d074a9")
 		(property "Sheetname" "MCU"
-			(at 95.25 97.0784 0)
+			(at 111.76 97.0784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -195,7 +425,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 95.25 133.9346 0)
+			(at 111.76 133.9346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -206,7 +436,7 @@
 			)
 		)
 		(pin "RS485_RX" bidirectional
-			(at 95.25 115.57 180)
+			(at 111.76 115.57 180)
 			(uuid "0c31028e-8ecf-4d63-8070-169d8a58a581")
 			(effects
 				(font
@@ -216,7 +446,7 @@
 			)
 		)
 		(pin "RS485_TX" bidirectional
-			(at 95.25 125.73 180)
+			(at 111.76 125.73 180)
 			(uuid "1e20d88b-9d92-4057-a6d5-74618066f12f")
 			(effects
 				(font
@@ -226,8 +456,98 @@
 			)
 		)
 		(pin "RS485_DE_~{RE}" bidirectional
-			(at 95.25 106.68 180)
+			(at 111.76 106.68 180)
 			(uuid "52af9a58-9568-4140-97ad-b4a1543a3fd8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BUZZER" bidirectional
+			(at 153.67 105.41 0)
+			(uuid "5ba791b4-bbfd-45a1-973d-e9db56215adb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ETH_CS" bidirectional
+			(at 153.67 109.22 0)
+			(uuid "c5bdb3f2-9619-4da2-8e15-b2028f84f95f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ETH_INT" bidirectional
+			(at 153.67 113.03 0)
+			(uuid "d1d07a37-0b36-43ea-9d65-9de8ec001960")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ETH_MISO" bidirectional
+			(at 153.67 116.84 0)
+			(uuid "628006cd-5c8e-46ad-a992-a4773fea3b68")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ETH_MOSI" bidirectional
+			(at 153.67 121.92 0)
+			(uuid "25e3460e-834f-4d15-b740-336dcd486dd6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ETH_RST" bidirectional
+			(at 153.67 127 0)
+			(uuid "00960530-9e2f-4d0f-bd40-2d7adc1e53f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ETH_SCK" bidirectional
+			(at 153.67 130.81 0)
+			(uuid "cd43c891-59d6-417d-acbd-9e6726c292b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED_ALARM" bidirectional
+			(at 111.76 120.65 180)
+			(uuid "5e130f2e-0217-4e0d-85f3-1f3974cf9fca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED_STATUS" bidirectional
+			(at 111.76 130.81 180)
+			(uuid "55304144-551e-4554-b9ad-3ff5d00bd8e6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -244,7 +564,7 @@
 		)
 	)
 	(sheet
-		(at 45.72 105.41)
+		(at 24.13 106.68)
 		(size 38.1 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -260,7 +580,7 @@
 		)
 		(uuid "699e83a9-36d2-46a2-bd75-7bbc092405c3")
 		(property "Sheetname" "rs485"
-			(at 45.72 104.6984 0)
+			(at 24.13 105.9684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -271,7 +591,7 @@
 			)
 		)
 		(property "Sheetfile" "rs485.kicad_sch"
-			(at 45.72 139.0146 0)
+			(at 24.13 140.2846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -282,7 +602,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 45.72 105.41 0)
+			(at 24.13 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -293,7 +613,7 @@
 			)
 		)
 		(pin "RS485_RX" bidirectional
-			(at 83.82 114.3 0)
+			(at 62.23 115.57 0)
 			(uuid "4b6e7cd2-2cc6-4441-a187-15436abd0bbf")
 			(effects
 				(font
@@ -303,7 +623,7 @@
 			)
 		)
 		(pin "RS485_TX" bidirectional
-			(at 83.82 125.73 0)
+			(at 62.23 127 0)
 			(uuid "86fad058-8290-43b4-a1f1-7013678454b5")
 			(effects
 				(font
@@ -313,7 +633,7 @@
 			)
 		)
 		(pin "RS485_DE_~{RE}" bidirectional
-			(at 83.82 107.95 0)
+			(at 62.23 109.22 0)
 			(uuid "0df2f2e2-4ac7-4253-a63d-fcfdd65b0e42")
 			(effects
 				(font
@@ -331,7 +651,7 @@
 		)
 	)
 	(sheet
-		(at 147.32 99.06)
+		(at 207.01 93.98)
 		(size 48.26 44.45)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -347,7 +667,7 @@
 		)
 		(uuid "e900111b-cf22-4d6e-8545-ea0e128178dc")
 		(property "Sheetname" "buzzer + led"
-			(at 147.32 98.3484 0)
+			(at 207.01 93.2684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -358,7 +678,7 @@
 			)
 		)
 		(property "Sheetfile" "buzzer + led.kicad_sch"
-			(at 147.32 144.0946 0)
+			(at 207.01 139.0146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -366,6 +686,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "BUZZER" bidirectional
+			(at 207.01 104.14 180)
+			(uuid "f174c288-0dd0-4420-a5b2-533ba1efa6d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED_ALARM" bidirectional
+			(at 207.01 109.22 180)
+			(uuid "6b93e2d2-de49-4d73-8759-44fdadfdb8f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED_STATUS" bidirectional
+			(at 207.01 116.84 180)
+			(uuid "caa350bc-6235-4c96-9dfe-087add5fd904")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -377,7 +727,7 @@
 		)
 	)
 	(sheet
-		(at 40.64 35.56)
+		(at 27.94 29.21)
 		(size 43.18 41.91)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -393,7 +743,7 @@
 		)
 		(uuid "eea41067-027f-409a-b808-b11516c79f03")
 		(property "Sheetname" "power"
-			(at 40.64 34.8484 0)
+			(at 27.94 28.4984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -404,7 +754,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 40.64 78.0546 0)
+			(at 27.94 71.7046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

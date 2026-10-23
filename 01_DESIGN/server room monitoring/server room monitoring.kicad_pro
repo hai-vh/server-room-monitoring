@@ -260,7 +260,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "multiple_net_names|1054100|685800|11c97ffe-fd3d-424b-8145-e973ba3770d7|7f159bde-686d-4aae-aaba-1eccace3ad33|/6382e275-058c-4116-9829-3165fddbcf2b/699e83a9-36d2-46a2-bd75-7bbc092405c3|/6382e275-058c-4116-9829-3165fddbcf2b/699e83a9-36d2-46a2-bd75-7bbc092405c3|/6382e275-058c-4116-9829-3165fddbcf2b/699e83a9-36d2-46a2-bd75-7bbc092405c3",
+        ""
+      ],
+      [
+        "multiple_net_names|1054100|711200|d6eb927a-869c-4a7c-8e2b-0a64c14128cd|173b1a8d-77ca-4cad-ba18-ac5d3b4c2a31|/6382e275-058c-4116-9829-3165fddbcf2b/699e83a9-36d2-46a2-bd75-7bbc092405c3|/6382e275-058c-4116-9829-3165fddbcf2b/699e83a9-36d2-46a2-bd75-7bbc092405c3|/6382e275-058c-4116-9829-3165fddbcf2b/699e83a9-36d2-46a2-bd75-7bbc092405c3",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -602,14 +611,158 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "AVAILABILITY",
+          "name": "AVAILABILITY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DIGIKEY-PURCHASE-URL",
+          "name": "DIGIKEY-PURCHASE-URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER_PART_NUMBER",
+          "name": "MANUFACTURER_PART_NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFR_NAME",
+          "name": "MFR_NAME",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MOUSER-PURCHASE-URL",
+          "name": "MOUSER-PURCHASE-URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PACKAGE",
+          "name": "PACKAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PRICE",
+          "name": "PRICE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purchase-URL",
+          "name": "Purchase-URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ARROW_ELECTRONICS-PURCHASE-URL",
+          "name": "ARROW_ELECTRONICS-PURCHASE-URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "${EXCLUDE_FROM_BOM}"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -652,7 +805,7 @@
         "uuid": "6382e275-058c-4116-9829-3165fddbcf2b"
       }
     ],
-    "used_designators": "U4-7,R5-32,#FLG4,J2-8,C7,C9-33,D4-11,#PWR27-95,Y1,FB1-2,Q1-3,F1,BZ1",
+    "used_designators": "U4-9,R5-42,#FLG3-9,J2-9,C7,C9-40,D4-11,#PWR27-110,Y1,FB1-2,Q1-3,F1,BZ1,TP1-6",
     "variants": []
   },
   "sheets": [

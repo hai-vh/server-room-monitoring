@@ -3893,6 +3893,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 120.65 116.84)
@@ -3997,6 +4112,12 @@
 		(uuid "3dacc594-12ad-42d8-9ae8-cf27e56358b7")
 	)
 	(junction
+		(at 176.53 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4bbb2fa8-af0b-420c-a98c-4f6bb1ec0efe")
+	)
+	(junction
 		(at 62.23 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4019,6 +4140,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a60c25b2-fdd9-4299-85d1-9e7f8e226e21")
+	)
+	(junction
+		(at 271.78 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af15fc42-f153-49db-99a9-ec11d6b6b0be")
 	)
 	(junction
 		(at 257.81 66.04)
@@ -4101,6 +4228,10 @@
 		(uuid "cd9f0b96-c791-49cd-a5e5-8c0730771223")
 	)
 	(no_connect
+		(at 184.15 58.42)
+		(uuid "d694062b-06e8-434c-932b-95ef25817fff")
+	)
+	(no_connect
 		(at 163.83 71.12)
 		(uuid "fbd9ecda-3ce8-4488-9aaa-8834eb860e33")
 	)
@@ -4153,6 +4284,16 @@
 			(type default)
 		)
 		(uuid "06661b1e-44c0-4365-8184-79413a5e50ec")
+	)
+	(wire
+		(pts
+			(xy 257.81 59.69) (xy 257.81 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e91b19f-1848-41c5-9227-c41bb6c458b9")
 	)
 	(wire
 		(pts
@@ -4576,7 +4717,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 66.04) (xy 257.81 66.04)
+			(xy 262.89 66.04) (xy 257.81 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5043,6 +5184,16 @@
 			(type default)
 		)
 		(uuid "e73aad3c-193b-4742-960e-61b37840ffbb")
+	)
+	(wire
+		(pts
+			(xy 271.78 66.04) (xy 270.51 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e97745d6-62dc-4c5f-805a-28f3befc5ce7")
 	)
 	(wire
 		(pts
@@ -5665,7 +5816,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 144.145 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -5743,7 +5894,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 257.81 63.5 0)
+		(at 257.81 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5751,10 +5902,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2bc4f9c2-2ef6-40d6-933b-be913f4d8df7")
 		(property "Reference" "#PWR081"
-			(at 257.81 67.31 0)
+			(at 257.81 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5764,18 +5914,19 @@
 				)
 			)
 		)
-		(property "Value" "VBUS"
-			(at 257.81 58.42 0)
+		(property "Value" "5V_USB"
+			(at 255.27 55.118 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 63.5 0)
+			(at 257.81 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5786,7 +5937,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 63.5 0)
+			(at 257.81 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5797,7 +5948,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 257.81 63.5 0)
+			(at 257.81 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5850,7 +6001,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 200.66 60.198 90)
 			(hide yes)
 			(show_name no)
@@ -5932,7 +6083,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 55.118 62.23 90)
 			(hide yes)
 			(show_name no)
@@ -6014,7 +6165,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 144.018 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -6579,7 +6730,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92"
 			(at 97.79 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -6715,7 +6866,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "70d60706-7e3a-461c-88d3-c42642350238")
 		(property "Reference" "#PWR083"
 			(at 195.58 86.36 0)
@@ -6728,14 +6878,15 @@
 				)
 			)
 		)
-		(property "Value" "VBUS"
-			(at 195.58 77.47 0)
+		(property "Value" "5V_USB"
+			(at 192.532 78.486 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6815,7 +6966,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 168.91 46.0248 0)
 			(hide yes)
 			(show_name no)
@@ -7100,7 +7251,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 26.3652 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -7259,7 +7410,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 156.845 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -7678,7 +7829,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92"
 			(at 26.67 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7807,7 +7958,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SS34")
-		(at 267.97 66.04 180)
+		(at 266.7 66.04 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7817,7 +7968,7 @@
 		(dnp no)
 		(uuid "a46db0c8-c372-44a8-a751-b2f3c550bdb5")
 		(property "Reference" "D5"
-			(at 267.97 68.58 0)
+			(at 266.7 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7827,7 +7978,7 @@
 			)
 		)
 		(property "Value" "SS34"
-			(at 268.732 63.754 0)
+			(at 267.462 63.754 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7837,7 +7988,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 267.97 61.595 0)
+			(at 266.7 61.595 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7848,7 +7999,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
-			(at 267.97 66.04 0)
+			(at 266.7 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7859,7 +8010,7 @@
 			)
 		)
 		(property "Description" "40V 3A Schottky Diode, SMA"
-			(at 267.97 66.04 0)
+			(at 266.7 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7879,6 +8030,84 @@
 			(project "server room monitoring"
 				(path "/6382e275-058c-4116-9829-3165fddbcf2b/234b9206-bcdf-4a8c-be0b-cbb776d074a9"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 271.78 66.04 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a492088f-ee05-4780-828b-824a89869878")
+		(property "Reference" "#FLG07"
+			(at 271.78 67.945 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 271.78 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 271.78 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0b7da939-71ca-46a6-8e83-c807f60310b1")
+		)
+		(instances
+			(project "server room monitoring"
+				(path "/6382e275-058c-4116-9829-3165fddbcf2b/234b9206-bcdf-4a8c-be0b-cbb776d074a9"
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
@@ -8012,7 +8241,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 30.48 67.6148 0)
 			(hide yes)
 			(show_name no)
@@ -8094,7 +8323,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 37.7952 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -8176,7 +8405,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 160.528 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -8219,6 +8448,84 @@
 			(project "server room monitoring"
 				(path "/6382e275-058c-4116-9829-3165fddbcf2b/234b9206-bcdf-4a8c-be0b-cbb776d074a9"
 					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 176.53 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c09e632f-aeca-499b-85be-445042ec45ef")
+		(property "Reference" "#FLG09"
+			(at 176.53 45.085 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 176.53 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 176.53 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3549f715-71f9-4fe5-a11b-bd3a30446888")
+		)
+		(instances
+			(project "server room monitoring"
+				(path "/6382e275-058c-4116-9829-3165fddbcf2b/234b9206-bcdf-4a8c-be0b-cbb776d074a9"
+					(reference "#FLG09")
 					(unit 1)
 				)
 			)
@@ -8334,7 +8641,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 187.96 46.0248 0)
 			(hide yes)
 			(show_name no)
@@ -8494,7 +8801,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 87.122 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -8573,7 +8880,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 200.66 62.738 90)
 			(hide yes)
 			(show_name no)
