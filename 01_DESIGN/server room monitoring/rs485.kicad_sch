@@ -4608,14 +4608,15 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 205.74 88.9 0)
+		(property "Value" "GND_ISO"
+			(at 208.28 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5083,14 +5084,15 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 245.11 87.63 0)
+		(property "Value" "GND_ISO"
+			(at 247.65 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5634,14 +5636,15 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 212.09 59.69 0)
+		(property "Value" "GND_ISO"
+			(at 214.63 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6280,14 +6283,15 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 261.62 59.69 0)
+		(property "Value" "GND_ISO"
+			(at 264.16 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""

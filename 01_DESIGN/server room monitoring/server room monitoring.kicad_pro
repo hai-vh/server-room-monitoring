@@ -260,16 +260,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "multiple_net_names|1054100|685800|11c97ffe-fd3d-424b-8145-e973ba3770d7|7f159bde-686d-4aae-aaba-1eccace3ad33|/6382e275-058c-4116-9829-3165fddbcf2b/699e83a9-36d2-46a2-bd75-7bbc092405c3|/6382e275-058c-4116-9829-3165fddbcf2b/699e83a9-36d2-46a2-bd75-7bbc092405c3|/6382e275-058c-4116-9829-3165fddbcf2b/699e83a9-36d2-46a2-bd75-7bbc092405c3",
-        ""
-      ],
-      [
-        "multiple_net_names|1054100|711200|d6eb927a-869c-4a7c-8e2b-0a64c14128cd|173b1a8d-77ca-4cad-ba18-ac5d3b4c2a31|/6382e275-058c-4116-9829-3165fddbcf2b/699e83a9-36d2-46a2-bd75-7bbc092405c3|/6382e275-058c-4116-9829-3165fddbcf2b/699e83a9-36d2-46a2-bd75-7bbc092405c3|/6382e275-058c-4116-9829-3165fddbcf2b/699e83a9-36d2-46a2-bd75-7bbc092405c3",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -549,7 +540,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "..\\..\\03_BOM\\server room monitoring.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -793,6 +784,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -805,7 +804,7 @@
         "uuid": "6382e275-058c-4116-9829-3165fddbcf2b"
       }
     ],
-    "used_designators": "U4-9,R5-42,#FLG3-9,J2-9,C7,C9-40,D4-11,#PWR27-110,Y1,FB1-2,Q1-3,F1,BZ1,TP1-6",
+    "used_designators": "U4-9,R5-44,#FLG3-9,J2-9,C2,C7,C9-42,D4-12,#PWR27-110,Y1,FB1-2,Q1-3,F1,BZ1,TP1-6",
     "variants": []
   },
   "sheets": [

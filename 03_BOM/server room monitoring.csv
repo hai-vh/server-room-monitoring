@@ -1,9 +1,10 @@
 Reference;Qty;Value;DNP;Exclude from BOM;Exclude from Board;Footprint;Datasheet
 BZ1;1;Buzzer;;;;Buzzer_Beeper:Buzzer_12x9.5RM7.6;
 C1,C6,C7,C9,C14,C15,C16,C17,C18,C19,C20,C24,C26,C29,C30,C32,C33,C34,C35,C36;20;0.1uF;;;;Capacitor_SMD:C_0805_2012Metric;
-C2,C5,C22,C23,C25,C31,C37,C38;8;10uF;;;;Capacitor_SMD:C_0805_2012Metric;
-C3;1;470uF;;;;Capacitor_SMD:CP_Elec_10x10.5;
-C4;1;220uF;;;;Capacitor_SMD:CP_Elec_8x10.5;
+C2;1;10uF;;;;Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A;
+C3;1;120uF;;;;Capacitor_SMD:CP_Elec_10x10.5;
+C4;1;330uF;;;;Capacitor_SMD:CP_Elec_8x10.5;
+C5,C22,C23,C25,C31,C37,C38,C41;8;10uF;;;;Capacitor_SMD:C_0805_2012Metric;
 C8,C39,C40;3;1uF;;;;Capacitor_SMD:C_0805_2012Metric;
 C10;1;4.7uF;;;;Capacitor_SMD:C_0805_2012Metric;
 C11,C27;2;10nF;;;;Capacitor_SMD:C_0805_2012Metric;
@@ -14,11 +15,11 @@ D1,D7;2;SS34;;;;Diode_SMD:D_SMC;https://www.vishay.com/docs/88751/ss32.pdf
 D2,D3,D8;3;LED;;;;LED_SMD:LED_0805_2012Metric;
 D4;1;SM712_SOT23;;;;Package_TO_SOT_SMD:SOT-23;https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sm712_datasheet.pdf.pdf
 D5;1;SS34;;;;Diode_SMD:D_SMA;https://www.vishay.com/docs/88751/ss32.pdf
-D6;1;SMAJ28A;;;;Diode_SMD:D_SMA;https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet
+D6;1;SMAJ14A;;;;Diode_SMD:D_SMA;https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet
 D9;1;1N4148W;;;;Diode_SMD:D_SOD-123;https://www.vishay.com/docs/85748/1n4148w.pdf
 D10;1;LED GREEN;;;;LED_SMD:LED_0805_2012Metric;
 D11;1;LED RED;;;;LED_SMD:LED_0805_2012Metric;
-F1;1;MF-MSMF250_16X-2;;;;MF-MSMF250_16X-2:FUSER_MF-MSMF250_16X-2;
+F1;1;MF-MSMF260-2;;;;MF-MSMF260-2:FUSE_MF-MSMF260-2;
 FB1;1;120R @ 100Mhz;;;;Inductor_SMD:L_0805_2012Metric;https://www.lcsc.com/datasheet/C139186.pdf
 H1,H2,H3,H4;4;MountingHole_Pad;;;;MountingHole:MountingHole_2.7mm_M2.5_Pad;
 J1;1;Screw_Terminal_01x02;;;;TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal;
@@ -28,7 +29,7 @@ J4;1;Header 2x1;;;;Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical;
 J5;1;Conn_01x07_Pin;;;;Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical;
 J6;1;HR911105A;;;;HR911105A:HANRUN_HR911105A;
 J7;1;2171790001;;;;2171790001:2171790001_MOL;https://www.molex.com/en-us/products/part-detail-pdf/2171790001?display=pdf
-L1;1;68uH;;;;Inductor_SMD:L_12x12mm_H8mm;
+L1;1;33uH;;;;Inductor_SMD:L_12x12mm_H8mm;
 Q1,Q2;2;S8050;;;;Package_TO_SOT_SMD:SOT-23;http://www.unisonic.com.tw/datasheet/S8050.pdf
 Q3;1;S8050;;;;Package_TO_SOT_THT:TO-92_Inline;http://www.unisonic.com.tw/datasheet/S8050.pdf
 R1,R2,R28,R29,R31,R32;6;1k;;;;Resistor_SMD:R_0805_2012Metric;
@@ -42,7 +43,7 @@ R20;1;10R;;;;Resistor_SMD:R_0805_2012Metric;
 R24,R25;2;5.1k;;;;Resistor_SMD:R_0805_2012Metric;
 R33;1;0R;;;;Resistor_SMD:R_0805_2012Metric;
 R35,R36;2;22R;;;;Resistor_SMD:R_0805_2012Metric;
-R37,R38;2;470R;;;;Resistor_SMD:R_0805_2012Metric;
+R37,R38,R43,R44;4;470R;;;;Resistor_SMD:R_0805_2012Metric;
 R39,R40,R41,R42;4;33R;;;;Resistor_SMD:R_0805_2012Metric;
 SW1,SW2;2;SW_Push;;;;Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92;
 TP1,TP2,TP3,TP4,TP5,TP6;6;TestPoint;;;;TestPoint:TestPoint_Pad_D1.0mm;
